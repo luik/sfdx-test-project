@@ -4,7 +4,7 @@
     <label>Jira</label>
     <oauthConfig>
         <callbackUrl>https://ec2-35-172-150-82.compute-1.amazonaws.com/jira/plugins/servlet/oauth/_callback</callbackUrl>
-        <consumerKey>3MVG9er.T8KbeePTRnv95x37MIPAk3otamVS0atLcx2oKu1AcsvZSA_aZpBHPEYQbleqk7TkqX5qhp9uqFsfR</consumerKey>
+        <consumerKey>4MVG9er.T8KbeePTRnv95x37MIPAk3otamVS0atLcx2oKu1AcsvZSA_aZpBHPEYQbleqk7TkqX5qhp9uqFsfR</consumerKey>
         <scopes>Full</scopes>
         <scopes>RefreshToken</scopes>
     </oauthConfig>
