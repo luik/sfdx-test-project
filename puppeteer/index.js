@@ -5,7 +5,7 @@ const waitSpan = 2000;
 (async() => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  await page.goto('https://power-fun-2672-dev-ed.cs10.my.salesforce.com/secur/frontdoor.jsp?sid=00DJ0000003QQbr!ARgAQBXU8JJQQVn8zGCm3PqS8QSYeBlSXxM7kGPuf2fAPigLHrMsUen507pOj4Hz3V9XcS3DSg1kki_JX2oEIfhIlB5bv0kZ');
+  await page.goto('SCRATCH_ORG_URL');
   await page.waitForSelector('#setupLink');
   await page.click('#setupLink');
   await page.type('#setupSearch', 'cer');
