@@ -1,13 +1,14 @@
-const certName = 'oauth4';
+const certName = 'oauthjira';
 const puppeteer = require('puppeteer');
-const waitSpan = 2000;
+const waitSpan = 4000;
 
 (async() => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  await page.goto('SCRATCH_ORG_URL');
+  await page.goto('SCRATCH-ORG-URL-WITH-TOKEN-GET-PARAMETER');
   await page.waitForSelector('#setupLink');
   await page.click('#setupLink');
+  await page.waitForSelector('#setupSearch');
   await page.type('#setupSearch', 'cer');
   await page.waitFor(waitSpan);
   await page.waitForSelector('#CertificatesAndKeysManagement_font');
