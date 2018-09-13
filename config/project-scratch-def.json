@@ -1,8 +1,9 @@
 {
     "orgName": "ubuntu Company",
-    "edition": "Developer",
+    "edition": "Enterprise",
     "language": "en_US",
     "orgPreferences" : {
         "enabled": ["S1DesktopEnabled"]
-    }
+    },
+    "features": ["LightningSalesConsole", "LightningServiceConsole"]
 }
