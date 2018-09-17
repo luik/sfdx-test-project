@@ -1,0 +1,31 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Knowledge__kav",
+                "referenceId": "Knowledge__kavRef1"
+            },
+            "Title": "Test",
+            "UrlName": "Test",
+            "Body__c": "TEST BODY"
+        },
+        {
+            "attributes": {
+                "type": "Knowledge__kav",
+                "referenceId": "Knowledge__kavRef2"
+            },
+            "Title": "TitleDEV",
+            "UrlName": "TEST-title",
+            "Body__c": "<div class=\"container-article\">\n<p style=\"color: #000000; font-weight: normal;\">Body</p>\n\n<div class=\"confluence-information-macro confluence-information-macro-warning slds-box uiMessage error\" style=\"background-color: #fff8f7;\"><sub><img src=\"/img/msg_icons/error16.png\"></img></sub>\n\n<div class=\"confluence-information-macro-body\" style=\"margin-left: 24px;\">\n<p style=\"color: #000000; font-weight: normal;\">Warning Body</p>\n</div>\n</div>\n\n<p style=\"color: #000000; font-weight: normal;\"> </p>\n\n<p style=\"color: #000000; font-weight: normal;\"> </p>\n\n<p style=\"color: #000000; font-weight: normal;\"> </p>\n\n<p style=\"color: #000000; font-weight: normal;\">End Body</p>\n</div>"
+        },
+        {
+            "attributes": {
+                "type": "Knowledge__kav",
+                "referenceId": "Knowledge__kavRef3"
+            },
+            "Title": "Title",
+            "UrlName": "TEST-title2",
+            "Body__c": "<div class=\"container-article\"> \n            <p style=\"color: #000000; font-weight: normal;\">Body</p>\n            <div class=\"confluence-information-macro confluence-information-macro-warning slds-box uiMessage error\" style=\"background-color: #fff8f7;\">\n                <sub><img src=\"/img/msg_icons/error16.png\"></img></sub>\n                <span class=\"aui-icon aui-icon-small aui-iconfont-error confluence-information-macro-icon\"></span>\n                <div class=\"confluence-information-macro-body\" style=\"margin-left: 24px;\">\n                    <p style=\"color: #000000; font-weight: normal;\">Warning Body</p>\n                </div>\n            </div>\n            <p style=\"color: #000000; font-weight: normal;\"><br></p>\n            <p style=\"color: #000000; font-weight: normal;\"><br></p>\n            <p style=\"color: #000000; font-weight: normal;\"><br></p>\n            <p style=\"color: #000000; font-weight: normal;\">End Body</p> \n        </div>"
+        }
+    ]
+}

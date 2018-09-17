@@ -42,15 +42,22 @@ sfdx force:user:display
 ```
 
 
-## Dev, Build and Test
+## Confluence Notes
+
+To get Articles in Draft status
+
+`SELECT Id, Title, Body__c FROM Knowledge__kav WHERE PublishStatus='Draft'`
 
 
-## Resources
+`sfdx force:data:tree:export --query "SELECT Title, UrlName, Body__c FROM Knowledge__kav WHERE PublishStatus='Draft'" -d data` 
 
+`sfdx force:data:tree:import -f data/Knowledge__kav.json`
 
-## Description of Files and Directories
+`delete [SELECT Id FROM Knowledge__kav WHERE Id='ka00v0000005DI3AAM'];`
 
+```
+Knowledge__kav item = [SELECT Id, Body__c FROM Knowledge__kav WHERE Id='ka00v0000005DHyAAM'];
+item.Body__c = '<div class=\"container-article\">\n<p style=\"color: #000000; font-weight: normal;\">Body</p>\n\n<div class=\"confluence-information-macro confluence-information-macro-warning slds-box uiMessage error\" style=\"background-color: #fff8f7;\"><sub><img src=\"/img/msg_icons/error16.png\"></img></sub>\n\n<div class=\"confluence-information-macro-body\" style=\"margin-left: 24px;\">\n<p style=\"color: #000000; font-weight: normal;\">Warning Body</p>\n</div>\n</div>\n\n<p style=\"color: #000000; font-weight: normal;\"> </p>\n\n<p style=\"color: #000000; font-weight: normal;\"> </p>\n\n<p style=\"color: #000000; font-weight: normal;\"> </p>\n\n<p style=\"color: #000000; font-weight: normal;\">End Body 25</p>\n</div>';
 
-## Issues
-
-
+update item;
+```

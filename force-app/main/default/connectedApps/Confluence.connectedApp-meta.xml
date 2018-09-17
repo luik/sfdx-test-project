@@ -3,7 +3,7 @@
     <contactEmail>devops@milkneko.com</contactEmail>
     <label>Confluence</label>
     <oauthConfig>
-        <callbackUrl>https://ec2-35-172-150-82.compute-1.amazonaws.com/confluence_callback</callbackUrl>
+        <callbackUrl>https://ubuntu:1990/confluence/plugins/servlet/oauth/_callback</callbackUrl>
         <scopes>Full</scopes>
         <scopes>RefreshToken</scopes>
     </oauthConfig>
