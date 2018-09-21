@@ -56,8 +56,18 @@ To get Articles in Draft status
 `delete [SELECT Id FROM Knowledge__kav WHERE Id='ka00v0000005DI3AAM'];`
 
 ```
-Knowledge__kav item = [SELECT Id, Body__c FROM Knowledge__kav WHERE Id='ka00v0000005DHyAAM'];
-item.Body__c = '<div class=\"container-article\">\n<p style=\"color: #000000; font-weight: normal;\">Body</p>\n\n<div class=\"confluence-information-macro confluence-information-macro-warning slds-box uiMessage error\" style=\"background-color: #fff8f7;\"><sub><img src=\"/img/msg_icons/error16.png\"></img></sub>\n\n<div class=\"confluence-information-macro-body\" style=\"margin-left: 24px;\">\n<p style=\"color: #000000; font-weight: normal;\">Warning Body</p>\n</div>\n</div>\n\n<p style=\"color: #000000; font-weight: normal;\"> </p>\n\n<p style=\"color: #000000; font-weight: normal;\"> </p>\n\n<p style=\"color: #000000; font-weight: normal;\"> </p>\n\n<p style=\"color: #000000; font-weight: normal;\">End Body 25</p>\n</div>';
+Knowledge__kav item = [SELECT Id, Body__c FROM Knowledge__kav WHERE Id='ka00v0000005DI8AAM'];
+item.Body__c = '<div>body1</div>';
 
 update item;
 ```
+
+
+
+```
+Knowledge__kav item = [SELECT Id, Body__c FROM Knowledge__kav WHERE Id='ka00v0000005DcRAAU'];
+item.Body__c = '<div>body2</div>';
+
+update item;
+```
+
