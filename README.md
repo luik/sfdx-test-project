@@ -48,6 +48,7 @@ To get Articles in Draft status
 
 `SELECT Id, Title, Body__c FROM Knowledge__kav WHERE PublishStatus='Draft'`
 
+`sfdx force:data:soql:query --query "SELECT Title, UrlName, Body__c FROM Knowledge__kav WHERE PublishStatus='Draft'"` 
 
 `sfdx force:data:tree:export --query "SELECT Title, UrlName, Body__c FROM Knowledge__kav WHERE PublishStatus='Draft'" -d data` 
 
