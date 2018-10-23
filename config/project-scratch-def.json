@@ -1,6 +1,6 @@
 {
-    "orgName": "ubuntu Company",
-    "edition": "Enterprise",
+    "orgName": "Dev Company",
+    "edition": "Developer",
     "language": "en_US",
     "orgPreferences" : {
         "enabled": ["S1DesktopEnabled"]
