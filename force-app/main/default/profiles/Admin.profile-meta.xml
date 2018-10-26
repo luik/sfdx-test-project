@@ -9,10 +9,6 @@
     <layoutAssignments>
         <layout>Knowledge__kav-Knowledge Layout</layout>
     </layoutAssignments>
-    <pageAccesses>
-        <apexPage>Hello</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
     <tabVisibilities>
         <tab>Knowledge__kav</tab>
         <visibility>DefaultOn</visibility>
